@@ -1,0 +1,22 @@
+.ad1-container,
+.ad2-container {
+  display: flex;
+  height: 140px;
+  background-color: rgba(135, 225, 248, 0.1); 
+  justify-content: center;
+  border-radius: 6px;
+  margin: 40px 0 12px 0;
+}
+
+.ad4 {
+  width: 100%;
+}
+
+.ad3-container {
+  margin-top: 110px;
+  padding: 0 80px 0 80px;
+}
+
+.ad3 {
+  width: 100%;
+}

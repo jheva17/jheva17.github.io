@@ -1,0 +1,125 @@
+.navigation-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.discord-button,
+.instagram-button,
+.reddit-button,
+.tiktok-button,
+.twitter-button,
+.youtube-button {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.75);
+  border: none;
+  background-color: black;
+  padding: 4px 17px 4px 17px;
+  border-radius: 1px;
+}
+
+.discord-button:hover,
+.instagram-button:hover,
+.reddit-button:hover,
+.tiktok-button:hover, 
+.twitter-button:hover,
+.youtube-button:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px 0 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  margin-top: 3px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05)
+}
+
+.row1 {
+  width: 1280px;
+  margin-top: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 19px;
+}
+
+.logo {
+  margin-left: 50px;
+  width: 130px;
+}
+
+.search-bar {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.085);
+  color: rgb(255, 255, 255);
+  padding: 8px 9px 8px 9px;
+  border-radius: 2px;
+}
+
+.search-bar::placeholder {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.registration-buttons-container {
+  margin-right: 55px;
+  display: flex;
+  align-items: center;
+}
+
+.signup-button, 
+.login-button {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0 10px 0 10px;
+}
+
+.signup-button:hover,
+.login-button:hover {
+  color: white;
+}
+
+.tabs-bar {
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row2 {
+  display: flex;
+  width: 1320px;
+}
+
+.home-button-container,
+.porn-button-container,
+.pornstars-button-container,
+.community-button-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 10px 0;
+}
+
+.home-button-container {
+  border-bottom: 2px solid orange;
+}
+
+.home-button,
+.porn-button,
+.pornstars-button,
+.community-button {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-weight: bold;
+  font-size: 11px;
+}
